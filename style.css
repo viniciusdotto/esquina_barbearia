@@ -1,5 +1,9 @@
 body{
-    background: #CCCCCC
+   background-color: #EEEEEE;
+}
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
 }
 #banner{
     width: 100%;
@@ -8,11 +12,34 @@ h1{
     text-align: center;
     padding: 20px;
     margin: 10px;
+    font-size: 60px;
 }
 p{
-    text-align: center
+    text-align: center;
+    font-size: 30px;
 }
 
 #missao{
-    font-size: 20px
+    font-size: 40px
+}
+.beneficios{
+    padding: 20px;
+}
+#picBen{
+    width: 40%;
+    padding: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+ul{
+    display: inline-block;
+    width: 35%;
+    padding: 5%;
+    vertical-align: top;
+    font-size: 40px;
+}
+.intens{
+    font-style: italic;
 }
