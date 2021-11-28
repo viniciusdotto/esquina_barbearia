@@ -1,12 +1,44 @@
 body{
    background-color: #EEEEEE;
 }
-.tituloPrincipal{
-    padding-left: 20px;
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.lim{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+#logo{
+    width: 300px;
+}
+nav{
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color:black; 
 }
 .principal{
     background: #CCCCCC;
     padding: 30px;
+}
+header{
+    background: #BBBBBB;
+}
+#logo{
+    width: 300px;
+    
 }
 #banner{
     width: 100%;
@@ -32,7 +64,7 @@ p{
     width: 40%;
     padding: 5%;
 }
-ul{
+.lista1{
     display: inline-block;
     width: 35%;
     padding: 5%;
