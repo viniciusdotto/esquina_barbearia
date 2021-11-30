@@ -26,3 +26,29 @@ nav a{
     font-weight: bold;
     color:black; 
 }
+.produtos{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricaoProd{
+    font-size: 20px;
+}
+.precoProd{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
