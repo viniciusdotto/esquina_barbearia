@@ -26,6 +26,16 @@ nav a{
     font-weight: bold;
     color:black; 
 }
+nav a:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-size: 24px;
+}
+nav a:active{
+    text-decoration: underline;
+    color: white;
+    font-size: 24px;
+}
 .produtos{
     width: 70%;
     margin: 0 auto;
@@ -43,9 +53,15 @@ nav a{
     height: 450px;
     border-radius: 20px;
 }
+.produtos li:hover{
+    border-color: cornflowerblue;
+}
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
+}
+.produtos li:hover h2{
+    font-size: 34px;
 }
 .descricaoProd{
     font-size: 20px;
@@ -58,4 +74,10 @@ nav a{
     text-align: center;
     border: 3px dotted black;
     border-radius: 20px;
+}
+.produtos li:hover .precoProd{
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+    border: 4px black solid;
+    font-size: 30px; 
 }
