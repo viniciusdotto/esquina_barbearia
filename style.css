@@ -68,19 +68,36 @@ p{
     font-size: 40px
 }
 .beneficios{
+    width: 70%;
+    margin: 0 auto;
     padding: 20px;
 }
-#picBen{
-    width: 40%;
-    padding: 5%;
+.itens{
+    width: 70%;
+    margin: 0 auto;
 }
-.lista1{
+
+.itens li{
     display: inline-block;
-    width: 35%;
-    padding: 5%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 20px;
     vertical-align: top;
-    font-size: 40px;
 }
-.intens{
-    font-style: italic;
+.itens li h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: black 3px solid;
+    border-radius: 30px;
+}
+#picBen{
+    width: 400px;
+    height: 260px;
+}
+#picCer{
+    width: 400px;
+}
+#picEst{
+    width: 400px;
 }
