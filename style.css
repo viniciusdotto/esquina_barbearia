@@ -101,3 +101,15 @@ p{
 #picEst{
     width: 400px;
 }
+footer{
+    background: #3c3c3c;
+    text-align: center;
+    padding: 20px 0;
+}
+#logob{
+    width: 200px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+}
