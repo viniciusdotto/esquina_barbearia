@@ -2,32 +2,49 @@ body{
    background-color: #EEEEEE;
 }
 
-#banner{
+.banner{
     width: 100%;
 }
 .principal{
     background: #CCCCCC;
     padding: 20px;
 }
-.tituloCentralizado{
+.tituloPrincipal{
     text-align: center;
     padding: 20px;
-    margin: 10px;
-    font-size: 60px;
+    margin: 1em;
+    font-size: 3em;
 }
+
 .principal p{
     text-align: justify;
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 2em;
     margin: 20px 50px;
 }
 
-#missao{
-    font-size: 40px;
+.utensilios{
+    width: 200px;
+    float: left;
+    margin: 0  20px 40px 20px;
+    
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+p.missao {
+    font-size: 2.5em;
     text-align: center;
     border: black 20px double;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px 250px;
+    clear: left;
 
 }
 .beneficios{
