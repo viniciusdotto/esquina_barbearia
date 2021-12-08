@@ -50,9 +50,10 @@ p.missao {
 
 }
 .beneficios{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px 0;
+    text-align: center;
 }
 .itens{
     width: 70%;
