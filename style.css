@@ -1,12 +1,14 @@
 body{
-   background-color: #EEEEEE;
+   background: linear-gradient(white, #BBBBBB);
+   font-family: 'Rajdhani', sans-serif;
 }
 
 .banner{
     width: 100%;
 }
 .principal{
-    background: #CCCCCC;
+    width: 70%;
+    margin: 0 auto;
     padding: 20px;
 }
 .tituloPrincipal{
@@ -43,7 +45,7 @@ p.missao {
     border: black 20px double;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px 250px;
+    margin: 20px 100px;
     clear: left;
 
 }

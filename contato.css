@@ -1,3 +1,8 @@
+body{
+    background: linear-gradient(white, #BBBBBB);  
+    font-family: 'Rajdhani', sans-serif;
+ }
+
 main{
     width: 70%;
     margin: 0 auto;
@@ -44,8 +49,18 @@ form label, form legend{
     background: black;
 }
 
+.funcionamento{
+    padding: 50px 0 50px 0;
+}
+.funcionamento h2{
+    font-size: 3em;
+    margin: 20px 0 50px 0;
+}
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 50px 0;
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
 }
 
 thead {
@@ -58,3 +73,4 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
