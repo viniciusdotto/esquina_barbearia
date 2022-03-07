@@ -1,18 +1,22 @@
 body{
-    background: linear-gradient(white, #BBBBBB);
+    background: linear-gradient(white, darkgray);
     font-family: 'Rajdhani', sans-serif;
  }
 
 .produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     width: 90%;
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
+    gap: 30px;
 }
 .produtos li{
     display: inline-block;
     text-align: center;
-    width: 28%;
+    width: 100%;
     vertical-align: top;
     margin: 0 1em;
     padding: 1em 0.5em;
@@ -31,9 +35,6 @@ body{
     font-weight: bold;
     height: 60px;
 }
-.produtos li:hover h2{
-    font-size: 34px;
-}
 .descricaoProd{
     font-size: 20px;
     height: 50px;
@@ -49,6 +50,11 @@ body{
 .produtos li:hover .precoProd{
     color: #FFFFFF;
     background-color: cornflowerblue;
-    border: 4px black solid;
-    font-size: 30px; 
+}
+
+@media (max-width: 700px){
+    .produtos{
+        grid-template-columns: 1fr;
+
+    }
 }

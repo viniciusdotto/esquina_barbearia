@@ -1,28 +1,32 @@
 header{
     background: #BBBBBB;
     padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .lim{
-    width: 70%;
     margin: 0 auto;
-    position: relative;
 }
 #logo{
     width: 300px;  
 }
 nav{
-    position: absolute;
-    top: 150px;
-    right: 0;
+    margin: auto auto;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 nav li{
-    display: inline;
     margin: 0 0 0 15px;
+    padding: 10px 15px;
 }
 nav a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
     color:black; 
     cursor: pointer;
@@ -30,12 +34,29 @@ nav a{
 nav a:hover{
     text-decoration: underline;
     color: cornflowerblue;
-    font-size: 24px;
 }
 nav a:active{
     text-decoration: underline;
     color: white;
-    font-size: 24px;
+}
+
+@media (max-width:700px){
+    header{
+        grid-template-columns: 1fr;
+    }
+    #logo{
+        height: 150px;
+        width: auto;
+    }
+    nav a{
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width:400px){
+    nav a{
+        font-size: 1rem;
+    }
 }
 
 footer{
@@ -49,4 +70,10 @@ footer{
 footer p{
     color: white;
     font-size: 16px;
+}
+
+@media (max-width:700px){
+    #logob{
+        width: 100px;
+    }
 }
